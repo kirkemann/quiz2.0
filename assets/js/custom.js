@@ -21,7 +21,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "What does HTML stand for",
-        imgSrc : "/assets/images/html.png",
+        imgSrc : "./assets/images/html.png",
         choiceA : "Correct",
         choiceB : "wrong",
         choiceC : "wrong",
@@ -30,7 +30,7 @@ let questions = [
     },
     {
         question : "What does CSS stand for",
-        imgSrc : "/assets/images/css.png",
+        imgSrc : "./assets/images/css.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         choiceC : "Wrong",
@@ -39,7 +39,7 @@ let questions = [
     },
     {
         question : "What does CSS stand for",
-        imgSrc : "/assets/images/css.png",
+        imgSrc : "./assets/images/css.png",
         choiceA : "Wrong",
         choiceB : "Correct",
         choiceC : "Wrong",
@@ -48,7 +48,7 @@ let questions = [
     },
     {
         question: "Hvad betyder MAGNO på latinsk",
-        imgSrc: "/assets/images/DramaticQuestionMark.png",
+        imgSrc: "./assets/images/DramaticQuestionMark.png",
         choiceA: "Den Hurtige",
         choiceB: "Den Lille",
         choiceC: "Den Store",
@@ -57,7 +57,7 @@ let questions = [
     },
     {
         question: "Hvem opfandt JavaScript?",
-        imgSrc: "/assets/images/js.png",
+        imgSrc: "./assets/images/js.png",
         choiceA: "John Resig",
         choiceB: "Brendan Eich",
         choiceC: "Mitchell Baker",
@@ -66,7 +66,7 @@ let questions = [
     },
     {
         question: "Hvem sørgede for kage op til efterårsferien??",
-        imgSrc: "/assets/images/cake.png.png",
+        imgSrc: "./assets/images/cake.png.png",
         choiceA: "Gandalf",
         choiceB: "Marianne",
         choiceC: "Julemanden",
@@ -74,7 +74,7 @@ let questions = [
     },
     {
         question : "Inside which HTML element do we put the JavaScript?",
-        imgSrc : "/assets/images/javas1.jpg",
+        imgSrc : "./assets/images/javas1.jpg",
         choiceA : "Javascript",
         choiceB : "js",
         choiceC : "script",
@@ -83,7 +83,7 @@ let questions = [
     },
     {
         question : "Hvad er specielt ved const?",
-        imgSrc : "/assets/images/const.png",
+        imgSrc : "./assets/images/const.png",
         choiceA : "Kan få givet en værdi ligemeget hvornår",
         choiceB : "Kan ikke få tildelt en ny værdi",
         choiceC : "At den definerer en konstant værdi",
@@ -99,7 +99,7 @@ let questions = [
     },
     {
         question: "Hvis man lider af Hippopotomonstrosesquippedaliophobia - hvad er det så man frygter?",
-        imgSrc: "/assets/images/frygt.jpg",
+        imgSrc: "./assets/images/frygt.jpg",
         choiceA: "Lange ord",
         choiceB: "Opvaskebaljer",
         choiceC: "Flodheste",
